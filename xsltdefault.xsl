@@ -2,7 +2,7 @@
 <!DOCTYPE stylesheet [<!ENTITY nbsp "&#160;" >]>
 <!-- $Id: MARC21slim2DC.xsl,v 1.1 2003/01/06 08:20:27 adam Exp $ -->
 <xsl:stylesheet version="1.0" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:items="http://www.koha-community.org/items" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="marc items">
-    <xsl:import href="http://staff.briarcliff.bywatersolutions.com/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl"/>
+   <!-- <xsl:import href="http://staff.briarcliff.bywatersolutions.com/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl"/>-->
     <xsl:output method="html" indent="yes" omit-xml-declaration="yes" encoding="UTF-8"/>
     <xsl:template match="/">
             <xsl:apply-templates/>
