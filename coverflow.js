@@ -1,7 +1,7 @@
 $(document).ready(function() {
-window.log(it's working!);
  $('#coverflowadult div, #coverflowadult').fadeIn();
 
+$(window).alert("here");
 
 $('#ya').click(function(e) {
     $('#ya').addClass('active');
