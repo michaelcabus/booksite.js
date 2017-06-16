@@ -1,12 +1,12 @@
 // integrated at
 //  https://bearcat.hotchkiss.org/cgi-bin/koha/opac-search.pl?expanded_options=0
 
-    var SMscript = document.createElement("script");
-    SMscript.type = "text/javascript";
+    //var SMscript = document.createElement("script");
+   // SMscript.type = "text/javascript";
    // SMscript.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js";
-    var SMbody = document.getElementsByTagName('body')[0]
+ //   var SMbody = document.getElementsByTagName('body')[0]
 
-    SMbody.appendChild(SMscript);
+  //  SMbody.appendChild(SMscript);
 
 window.onload = function(){
 jQuery.noConflict()
